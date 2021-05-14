@@ -727,6 +727,8 @@ public final class InputLogic {
             case Constants.CODE_SWITCH_ONE_HANDED_MODE:
                 // Note: Switching one-handed side is being
                 // handled in {@link KeyboardState#onEvent(Event,int)}.
+            case Constants.CODE_OUTPUT_TEXT:
+                mWordComposer.applyProcessedEvent(event);
                 break;
             default:
                 throw new RuntimeException("Unknown key code : " + event.getMKeyCode());
