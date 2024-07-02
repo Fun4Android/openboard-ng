@@ -85,14 +85,14 @@ public final class KeyboardTextsTable {
         /*   1:34 */ "morekeys_o",
         /*   2:33 */ "morekeys_e",
         /*   3:32 */ "morekeys_u",
-        /*   4:31 */ "keylabel_to_alpha",
+        /*   4:32 */ "keylabel_to_alpha",
         /*   5:30 */ "morekeys_i",
         /*   6:26 */ "morekeys_n",
         /*   7:25 */ "morekeys_c",
         /*   8:24 */ "double_quotes",
         /*   9:23 */ "morekeys_s",
         /*  10:23 */ "single_quotes",
-        /*  11:19 */ "keyspec_currency",
+        /*  11:20 */ "keyspec_currency",
         /*  12:17 */ "morekeys_y",
         /*  13:16 */ "morekeys_z",
         /*  14:14 */ "morekeys_d",
@@ -2519,19 +2519,18 @@ public final class KeyboardTextsTable {
 
     /* Locale ko: Korean */
     private static final String[] TEXTS_ko = {
-            /* morekeys_a ~ */
-            null, null, null, null, null,
-            /* ~ morekeys_i */
-            // Label for "switch to alphabetic" key.
-            // U+0995: "ᄀ" HANGUL LETTER KIYEOK
-            // U+0996: "ㄴ" HANGUL LETTER NIEUN
-            // U+0997: "ㄷ" HANGUL LETTER TIKEUT
-            /* keylabel_to_alpha */ "\u3131\u3134\u3137",
-            /* morekeys_n ~ */
-            null, null, null, null, null,
-            /* ~ single_quotes */
-            // U+20B9: "￦" FULLWIDTH WON SIGN
-            /* keyspec_currency */ "\uFFE6",
+        /* morekeys_a ~ */
+        null, null, null, null,
+        /* ~ morekeys_u */
+        // U+0995: "ᄀ" HANGUL LETTER KIYEOK
+        // U+0996: "ㄴ" HANGUL LETTER NIEUN
+        // U+0997: "ㄷ" HANGUL LETTER TIKEUT
+        /* keylabel_to_alpha */ "\u3131\u3134\u3137",
+        /* morekeys_i ~ */
+        null, null, null, null, null, null,
+        /* ~ single_quotes */
+        // U+FFE6: "￦" FULLWIDTH WON SIGN
+        /* keyspec_currency */ "\uFFE6",
     };
 
     /* Locale ky: Kyrgyz */
